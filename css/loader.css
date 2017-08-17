@@ -4,7 +4,7 @@
 }
 
 
-#credit {
+#rumble-credit {
   top:50%;
   z-index:1015;
   color:#e5e5e5;
@@ -13,16 +13,17 @@
   text-align:center;
   width:100%;
   margin:0 auto;
-  font-size:2em;
+  font-size:20px;
   text-transform: uppercase;
-  font-weight:700;
-  margin-top:0;
+  font-weight:200;
+  margin-top:-85px;
   letter-spacing:5px;
+  display:none;
 
 }
 
-#title {
-  top:40%;
+#project-title {
+  top:45%;
   z-index:1015;
   color:#e5e5e5;
   position:absolute;
@@ -30,290 +31,346 @@
   text-align:center;
   width:100%;
   margin:0 auto;
-  font-size:3em;
+  font-size:50px;
   text-transform: uppercase;
-  font-weight:100;
-  margin-top:30px;
-  letter-spacing:10px;
+  font-weight:500;
+  margin-top:-80px;
+  letter-spacing:7px;
   display:none;
 }
 
-@media only screen and (min-width: 800px) and (max-width: 899px) {
-
-
-  #credit {
-    top:50%;
-    z-index:1015;
-    color:#e5e5e5;
-    position:relative;
-    font-family:'Gloria Hallelujah', cursive;
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    font-size:2em;
-    text-transform: uppercase;
-    font-weight:700;
-    margin-top:85px;
-    display: none;
-    letter-spacing:5px;
-
-  }
-
-  #title {
-    top:40%;
-    z-index:1015;
-    color:#e5e5e5;
-    position:absolute;
-    font-family:  Arial, sans-serif;
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    font-size:3em;
-    text-transform: uppercase;
-    font-weight:100;
-    margin-top:85px;
-    letter-spacing:10px;
-  }
-
+#artist-name {
+  top:60%;
+  z-index:1015;
+  color:#e5e5e5;
+  position:absolute;
+  font-family: Arial, sans-serif;
+  text-align:center;
+  width:100%;
+  margin:0 auto;
+  font-size:15px;
+  text-transform: uppercase;
+  font-weight:500;
+  margin-top:-50px;
+  letter-spacing:7px;
+  display:none;
 }
 
+/*------Mobile Responsive -------------*/
 
 
+@media only screen and (min-width: 375px) {
 
-
-
-
-
-@media only screen and (min-width: 737px) and (max-width: 799px) {
-
-  #credit {
-    top:50%;
-    z-index:1015;
-    color:#e5e5e5;
-    position:relative;
-    font-family:'Gloria Hallelujah', cursive;
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    font-size:2em;
-    text-transform: uppercase;
-    font-weight:700;
-    margin-top:60px;
-    letter-spacing:5px;
-
+  #project-title {
+    font-size:60px;
+    margin-top:-100px;
   }
-
-  #title {
-    top:40%;
-    z-index:1015;
-    color:#e5e5e5;
-    position:absolute;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    font-size:3em;
-    text-transform: uppercase;
-    font-weight:100;
-    margin-top:60px;
-    letter-spacing:10px;
-  }
-
 }
 
+@media only screen and (min-width: 426px) {
 
-
-
-
-
-
-
-@media only screen and (min-width: 600px) and (max-width: 736px) {
-
-  #credit {
+  #rumble-credit {
     top:50%;
-    z-index:1015;
-    color:#e5e5e5;
-    position:relative;
-    font-family:'Gloria Hallelujah', cursive;
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    font-size:2em;
-    text-transform: uppercase;
-    font-weight:700;
-    margin-top:-5px;
-    letter-spacing:5px;
-
-  }
-
-  #title {
-    top:40%;
-    z-index:1015;
-    color:#e5e5e5;
-    position:absolute;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    font-size:3em;
-    text-transform: uppercase;
-    font-weight:100;
-    margin-top:-5px;
-    letter-spacing:10px;
-  }
-
-
-}
-
-
-@media only screen and (min-width: 500px) and (max-width: 599px) {
-
-  #credit {
-    top:50%;
-    z-index:1015;
-    color:#e5e5e5;
-    position:relative;
-    font-family:'Gloria Hallelujah', cursive;
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    font-size:2em;
-    text-transform: uppercase;
-    font-weight:700;
+    font-size:30px;
     margin-top:-30px;
-    letter-spacing:5px;
-
-  }
-
-  #title {
-    top:40%;
-    z-index:1015;
-    color:#e5e5e5;
-    position:absolute;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    font-size:3em;
-    text-transform: uppercase;
-    font-weight:100;
-    margin-top:-30px;
-    letter-spacing:10px;
   }
 }
 
-@media only screen and (min-width: 426px) and (max-width: 499px) {
 
-  #credit {
-    top:50%;
-    z-index:1015;
-    color:#e5e5e5;
-    position:absolute;
-    font-family:'Gloria Hallelujah', cursive;
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    font-size:1em;
-    text-transform: uppercase;
-    font-weight:700;
-    margin-top:-30px;
-    letter-spacing:5px;
+
+/*--------------- Iphone 4------------------   */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-height: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    #rumble-credit {
+      top:50%;
+      font-size:20px;
+    }
+
+    #project-title {
+      top:45%;
+      font-size:60px;
+    }
+
+    #artist-name {
+      top:60%;
+      font-size:15px;
+    }
+
 
   }
 
-  #title {
-    top:40%;
-    z-index:1015;
-    color:#e5e5e5;
-    position:absolute;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    font-size:3em;
-    text-transform: uppercase;
-    font-weight:100;
-    margin-top:-30px;
-    letter-spacing:10px;
+
+  /* ----------- iPhone 5 and 5S ----------- */
+
+   /*Portrait */
+  @media only screen
+    and (min-device-width: 320px)
+    and (min-device-height: 520px)
+    and (max-device-height: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+
+      #rumble-credit {
+        font-size:20px;
+        margin-top:-85px;
+      }
+
+      #project-title {
+        font-size:50px;
+        margin-top:-85px;
+      }
+
+      #artist-name {
+        font-size:50px;
+        margin-top:-85px;
+      }
+
+    }
+
+    /* Landscape */
+  /*--------------IPHONE 6---------------*/
+  @media only screen
+    and (min-device-width: 375px)
+    and (min-device-height: 600px)
+    and (max-device-height: 667px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+      #rumble-credit {
+        font-size:20px;
+        margin-top:-85px;
+      }
+
+      #project-title {
+        font-size:80px;
+        margin-top:-120px;
+      }
+
+      #artist-name {
+        font-size:50px;
+        margin-top:-85px;
+      }
+    }
+
+
+
+/*--------------IPHONE 6 Plus---------------*/
+  @media only screen
+    and (min-device-width: 400px)
+    and (max-device-width: 450px)
+    and (min-device-height: 700px)
+    and (max-device-height: 737px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+      #rumble-credit {
+        font-size:25px;
+        margin-top:-85px;
+      }
+
+      #project-title {
+        font-size:80px;
+        margin-top:-120px;
+      }
+
+      #artist-name {
+        font-size:50px;
+        margin-top:-85px;
+      }
+    }
+
+/*-----Samsung---------------*/
+   @media only screen
+     and (min-device-width: 360px)
+     and (max-device-width: 370px)
+     and (min-device-height: 630px)
+     and (max-device-height: 650px)
+     and (-webkit-min-device-pixel-ratio: 2)
+     and (orientation: portrait) {
+
+       #rumble-credit {
+         font-size:23px;
+         margin-top:-85px;
+       }
+
+       #project-title {
+         font-size:65px;
+         margin-top:-120px;
+       }
+
+       #artist-name {
+         font-size:50px;
+         margin-top:-85px;
+       }
+
+    }
+
+/*Ipad*/
+  @media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+
+    #rumble-credit {
+      font-size:30px;
+      margin-top:-85px;
+    }
+
+    #project-title {
+      font-size:65px;
+      margin-top:-90px;
+    }
+
+    #artist-name {
+      font-size:50px;
+      margin-top:-85px;
+    }
+
   }
 
+  @media only screen and (min-device-width:1025px) and (max-device-width:1199px) {
+
+    #rumble-credit {
+      font-size:40px;
+      margin-top:-85px;
+    }
+
+    #project-title {
+      font-size:85px;
+      margin-top:-90px;
+    }
+
+    #artist-name {
+      font-size:50px;
+      margin-top:-85px;
+    }
+
+  }
+
+/*--------------------Monitors----------------------*/
+
+@media only screen and (min-width: 768px) {
+  #rumble-credit {
+    font-size:40px;
+    margin-top:-85px;
+  }
+
+  #project-title {
+    font-size:100px;
+    margin-top:-140px;
+  }
+
+  #artist-name {
+    font-size:50px;
+    margin-top:-85px;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  #rumble-credit {
+    font-size:40px;
+    margin-top:-85px;
+  }
+
+  #project-title {
+    font-size:100px;
+    margin-top:-140px;
+  }
+
+  #artist-name {
+    font-size:50px;
+    margin-top:-85px;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  #rumble-credit {
+    font-size:40px;
+    margin-top:-85px;
+  }
+
+  #project-title {
+    font-size:100px;
+    margin-top:-140px;
+  }
+
+  #artist-name {
+    font-size:50px;
+    margin-top:-85px;
+  }
+}
+
+
+@media only screen and (min-width: 1600px) {
+  #rumble-credit {
+    font-size:40px;
+    margin-top:-85px;
+  }
+
+  #project-title {
+    font-size:100px;
+    margin-top:-140px;
+  }
+
+  #artist-name {
+    font-size:50px;
+    margin-top:-85px;
+  }
+}
+
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+  #rumble-credit {
+    font-size:40px;
+    margin-top:-120px;
+  }
+
+  #project-title {
+    font-size:100px;
+    margin-top:-140px;
+  }
+
+  #artist-name {
+    font-size:50px;
+    margin-top:-85px;
+  }
 
 }
 
-@media only screen and (min-width: 375px) and (max-width: 425px) {
+/* ----------- Retina Screens ----------- */
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
 
-  #credit {
-    top:50%;
-    z-index:1015;
-    color:#e5e5e5;
-    position:relative;
-    font-family:'Gloria Hallelujah', cursive;
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    font-size:1em;
-    text-transform: uppercase;
-    font-weight:700;
-    margin-top:-80px;
-    letter-spacing:5px;
-
+  #rumble-credit {
+    font-size:40px;
+    margin-top:-50px;
   }
 
-  #title {
-    top:40%;
-    z-index:1015;
-    color:#e5e5e5;
-    position:absolute;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    font-size:3em;
-    text-transform: uppercase;
-    font-weight:100;
-    margin-top:-80px;
-    letter-spacing:10px;
-
+  #project-title {
+    font-size:100px;
+    margin-top:-140px;
   }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 374px) {
-
-  #credit {
-    top:50%;
-    z-index:1015;
-    color:#e5e5e5;
-    position:relative;
-    font-family:'Gloria Hallelujah', cursive;
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    font-size:3em;
-    text-transform: uppercase;
-    font-weight:700;
-    letter-spacing:5px;
-
-  }
-
-  #title {
-    top:40%;
-    z-index:1015;
-    color:#e5e5e5;
-    position:absolute;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align:center;
-    width:100%;
-    margin:0 auto;
-    font-size:3em;
-    text-transform: uppercase;
-    font-weight:100;
-    margin-top:30px;
-    letter-spacing:10px;
-    margin-top:-80px;
+  
+  #artist-name {
+    font-size:50px;
+    margin-top:-85px;
   }
 
 }
+
+
 
 
 @keyframes sound {
