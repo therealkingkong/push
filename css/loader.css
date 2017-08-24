@@ -16,7 +16,7 @@
   font-size:20px;
   text-transform: uppercase;
   font-weight:200;
-  margin-top:-85px;
+  margin-top:-100px;
   letter-spacing:5px;
   display:none;
 
@@ -27,7 +27,7 @@
   z-index:1015;
   color:#e5e5e5;
   position:absolute;
-  font-family: Arial, sans-serif;
+  font-family: "afcamberwellone";
   text-align:center;
   width:100%;
   margin:0 auto;
@@ -44,7 +44,7 @@
   z-index:1015;
   color:#e5e5e5;
   position:absolute;
-  font-family: Arial, sans-serif;
+  font-family: "afcamberwellone";
   text-align:center;
   width:100%;
   margin:0 auto;
@@ -61,18 +61,24 @@
 
 @media only screen and (min-width: 375px) {
 
+  #rumble-credit {
+    top:50%;
+    font-size:25px;
+    margin-top:-100px;
+  }
+
   #project-title {
     font-size:60px;
     margin-top:-100px;
   }
 }
 
-@media only screen and (min-width: 426px) {
+@media only screen and (min-width: 425px) {
 
   #rumble-credit {
     top:50%;
     font-size:30px;
-    margin-top:-30px;
+    margin-top:-90px;
   }
 }
 
@@ -118,7 +124,7 @@
 
       #rumble-credit {
         font-size:20px;
-        margin-top:-85px;
+        margin-top:-70px;
       }
 
       #project-title {
@@ -194,7 +200,7 @@
 
        #rumble-credit {
          font-size:23px;
-         margin-top:-85px;
+         margin-top:-80px;
        }
 
        #project-title {
@@ -252,8 +258,8 @@
 
 @media only screen and (min-width: 768px) {
   #rumble-credit {
-    font-size:40px;
-    margin-top:-85px;
+    font-size:32px;
+    margin-top:-70px;
   }
 
   #project-title {
@@ -270,7 +276,7 @@
 
 @media only screen and (min-width: 1024px) {
   #rumble-credit {
-    font-size:40px;
+    font-size:45px;
     margin-top:-85px;
   }
 
@@ -331,7 +337,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
   #rumble-credit {
     font-size:40px;
-    margin-top:-120px;
+    margin-top:-45px;
   }
 
   #project-title {
@@ -355,14 +361,14 @@ and (min-resolution: 192dpi) {
 
   #rumble-credit {
     font-size:40px;
-    margin-top:-50px;
+    margin-top:-45px;
   }
 
   #project-title {
     font-size:100px;
     margin-top:-140px;
   }
-  
+
   #artist-name {
     font-size:50px;
     margin-top:-85px;
