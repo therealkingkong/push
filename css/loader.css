@@ -23,37 +23,76 @@
 }
 
 #project-title {
-  top:45%;
-  z-index:1015;
-  color:#e5e5e5;
-  position:absolute;
+  top: 32%;
+  z-index: 1015;
+  color: #CF2A07;
+  position: absolute;
   font-family: "afcamberwellone";
-  text-align:center;
-  width:100%;
-  margin:0 auto;
-  font-size:50px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 63px;
   text-transform: uppercase;
-  font-weight:500;
-  margin-top:-80px;
-  letter-spacing:7px;
+  font-weight: 500;
+  margin-top: -80px;
+  letter-spacing: 2px;
   display:none;
 }
 
-#artist-name {
-  top:60%;
+#release-countdown {
+  top:50%;
   z-index:1015;
-  color:#e5e5e5;
+  color:#CF2A07;
   position:absolute;
   font-family: "afcamberwellone";
   text-align:center;
   width:100%;
   margin:0 auto;
-  font-size:15px;
+  font-size:21px;
   text-transform: uppercase;
   font-weight:500;
   margin-top:-50px;
-  letter-spacing:7px;
+  letter-spacing:2px;
   display:none;
+}
+
+
+#artist-name {
+  top: 60%;
+  z-index: 1015;
+  color: #CF2A07;
+  position: absolute;
+  font-family: afcamberwellone;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: -50px;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#bars {
+    top: 42%;
+    height: 30px;
+    left: 50%;
+    margin: 25px 0 0 -20px;
+    position: absolute;
+    width: 40px;
+    z-index:1012;
+    display: none;
+}
+
+    .bar {
+    background: #CF2A07;
+    bottom: 1px;
+    height: 3px;
+    position: absolute;
+    width: 3px;
+    animation: sound 0ms -800ms linear infinite alternate;
+    z-index:1012;
 }
 
 /*------Mobile Responsive -------------*/
@@ -63,11 +102,17 @@
 
   #rumble-credit {
     top:50%;
-    font-size:25px;
+    font-size:20px;
     margin-top:-100px;
   }
 
   #project-title {
+    top:41%;
+    font-size:65px;
+    margin-top:-100px;
+  }
+
+  #release-countdown {
     font-size:60px;
     margin-top:-100px;
   }
@@ -77,9 +122,14 @@
 
   #rumble-credit {
     top:50%;
-    font-size:30px;
+    font-size:22px;
     margin-top:-90px;
   }
+
+  #project-title {
+    font-size:70px;
+  }
+
 }
 
 
@@ -94,18 +144,22 @@
   and (orientation: portrait) {
 
     #rumble-credit {
-      top:50%;
+      top:60%;
       font-size:20px;
     }
 
+    #bars {
+      top:52%;
+    }
+
     #project-title {
-      top:45%;
-      font-size:60px;
+      top:36%;
+      font-size:63px;
     }
 
     #artist-name {
-      top:60%;
-      font-size:15px;
+      top:82%;
+      font-size:17px;
     }
 
 
@@ -127,15 +181,27 @@
         margin-top:-70px;
       }
 
+      #bars {
+        top:49%;
+      }
+
       #project-title {
-        font-size:50px;
+        top:30%;
+        font-size:81px;
         margin-top:-85px;
       }
 
+      #release-countdown {
+        top:60%;
+        font-size:15px;
+      }
+
       #artist-name {
-        font-size:50px;
+        top:81%;
+        font-size:19px;
         margin-top:-85px;
       }
+
 
     }
 
@@ -153,13 +219,17 @@
       }
 
       #project-title {
-        font-size:80px;
-        margin-top:-120px;
+        font-size: 96px;
+        margin-top: -146px;
       }
 
+      #bars {
+        top:55%;
+        }
+
       #artist-name {
-        font-size:50px;
-        margin-top:-85px;
+        font-size: 21px;
+        margin-top: 83px;
       }
     }
 
@@ -179,13 +249,22 @@
       }
 
       #project-title {
-        font-size:80px;
-        margin-top:-120px;
+        font-size: 113px;
+        margin-top: -172px;
+      }
+
+      #bars {
+        top:56%;
+        }
+
+      #release-countdown {
+        top:60%;
+        font-size:15px;
       }
 
       #artist-name {
-        font-size:50px;
-        margin-top:-85px;
+        font-size: 23px;
+        margin-top: 72px;
       }
     }
 
@@ -204,55 +283,23 @@
        }
 
        #project-title {
-         font-size:65px;
-         margin-top:-120px;
+         font-size: 65px;
+         margin-top: -14px;
+       }
+
+       #release-countdown {
+         top:60%;
+         font-size:15px;
        }
 
        #artist-name {
-         font-size:50px;
-         margin-top:-85px;
+         font-size: 20px;
+         margin-top: -15px;
        }
 
     }
 
-/*Ipad*/
-  @media only screen and (min-device-width:768px) and (max-device-width:1024px) {
 
-    #rumble-credit {
-      font-size:30px;
-      margin-top:-85px;
-    }
-
-    #project-title {
-      font-size:65px;
-      margin-top:-90px;
-    }
-
-    #artist-name {
-      font-size:50px;
-      margin-top:-85px;
-    }
-
-  }
-
-  @media only screen and (min-device-width:1025px) and (max-device-width:1199px) {
-
-    #rumble-credit {
-      font-size:40px;
-      margin-top:-85px;
-    }
-
-    #project-title {
-      font-size:85px;
-      margin-top:-90px;
-    }
-
-    #artist-name {
-      font-size:50px;
-      margin-top:-85px;
-    }
-
-  }
 
 /*--------------------Monitors----------------------*/
 
@@ -263,39 +310,62 @@
   }
 
   #project-title {
-    font-size:100px;
-    margin-top:-140px;
+    font-size: 130px;
+    margin-top: -143px;
+    letter-spacing: 2px;
+  }
+
+  #bars {
+    top:43%;
+  }
+
+  #release-countdown {
+    top:60%;
+    font-size:15px;
   }
 
   #artist-name {
-    font-size:50px;
-    margin-top:-85px;
+    font-size: 24px;
+    margin-top: 18px;
+    letter-spacing: 2px;
   }
 }
 
 
 @media only screen and (min-width: 1024px) {
   #rumble-credit {
+    top:50%;
     font-size:45px;
     margin-top:-85px;
   }
 
   #project-title {
-    font-size:100px;
-    margin-top:-140px;
+    top: 43%;
+    font-size: 170px;
+    margin-top: -170px;
+    letter-spacing: 5px;
+  }
+
+  #release-countdown {
+    top:60%;
+    font-size:15px;
   }
 
   #artist-name {
-    font-size:50px;
-    margin-top:-85px;
+    font-size:32px;
+    margin-top:12px;
   }
 }
 
 
 @media only screen and (min-width: 1200px) {
   #rumble-credit {
-    font-size:40px;
+    font-size:30px;
     margin-top:-85px;
+  }
+
+  #bars {
+    top: 51%;
   }
 
   #project-title {
@@ -303,22 +373,9 @@
     margin-top:-140px;
   }
 
-  #artist-name {
-    font-size:50px;
-    margin-top:-85px;
-  }
-}
-
-
-@media only screen and (min-width: 1600px) {
-  #rumble-credit {
-    font-size:40px;
-    margin-top:-85px;
-  }
-
-  #project-title {
-    font-size:100px;
-    margin-top:-140px;
+  #release-countdown {
+    top:60%;
+    font-size:15px;
   }
 
   #artist-name {
@@ -326,7 +383,6 @@
     margin-top:-85px;
   }
 }
-
 
 
 /* ----------- Non-Retina Screens ----------- */
@@ -336,20 +392,27 @@ and (max-device-width: 1600px)
 and (-webkit-min-device-pixel-ratio: 1) {
 
   #rumble-credit {
-    font-size:40px;
+    font-size:30px;
     margin-top:-45px;
   }
 
   #project-title {
-    font-size:100px;
-    margin-top:-140px;
+    font-size: 175px;
+    margin-top: -130px;
+    letter-spacing: 2px;
+  }
+
+  #release-countdown {
+    top:60%;
+    font-size:15px;
   }
 
   #artist-name {
-    font-size:50px;
-    margin-top:-85px;
+    font-size:25px;
+    margin-top: -130px;
+    letter-spacing:1px;
+    top: 90%;
   }
-
 }
 
 /* ----------- Retina Screens ----------- */
@@ -360,20 +423,47 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (min-resolution: 192dpi) {
 
   #rumble-credit {
-    font-size:40px;
+    font-size:30px;
     margin-top:-45px;
   }
 
   #project-title {
-    font-size:150px;
-    margin-top:-140px;
+    font-size: 175px;
+    margin-top: -130px;
+    letter-spacing: 2px;
+  }
+
+  #release-countdown {
+    top:60%;
+    font-size:15px;
   }
 
   #artist-name {
-    font-size:50px;
-    margin-top:-85px;
+    font-size:25px;
+    margin-top: -130px;
+    letter-spacing:1px;
+    top: 90%;
   }
 
+}
+
+@media only screen and (min-width: 1601px) {
+  #rumble-credit {
+    font-size:32px;
+    margin-top:-45px;
+  }
+
+  #project-title {
+    font-size: 190px;
+    margin-top: -130px;
+  }
+
+  #artist-name {
+    font-size:27px;
+    margin-top: -130px;
+    letter-spacing:1px;
+    top: 90%;
+  }
 }
 
 

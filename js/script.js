@@ -8,6 +8,7 @@ $(document).ready(function() {
 		setTimeout(function(){
 			$('#project-title').show();
 			$('#artist-name').show();
+			$('#bars').show();
 		}, 3000);
 
 	  // setTimeout(function(){
