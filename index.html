@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="css/loader.css" />
   <link href="css/butterfly.css" rel="stylesheet" media="all">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-offset="60" data-target=".navbar-fixed-top">
@@ -173,12 +173,12 @@
 
 
               <!-- <a href="http://vimeo.com/19270640" class="btn btn-lg btn-transparent lightbox-video mfp-iframe">Play Video</a> -->
-              <!-- <a href="#" class="btn btn-lg btn-white">PUSH</a> -->
+              <a href="javascript:;" id="push-btn" class="btn btn-lg btn-white" data-toggle="modal" data-target="#modalLoginForm">PUSH</a>
 
-              <form id="signup-form" method="post" action="#">
+              <!-- <form id="signup-form" method="post" action="#">
 
                 <input class="btn btn-lg btn-white" data-toggle="modal" data-target="#modalLoginForm" type="submit" value="PUSH" />
-              </form>
+              </form> -->
 
               <div class="confirmation">
                 <p id="signup-success" class="text-success"></p>
@@ -229,33 +229,29 @@
       </div>
     </footer> <!-- end footer -->
 
-    <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
   aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+        <h4 class="modal-title w-100 font-weight-bold">Opt in</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <i class="fas fa-envelope prefix grey-text"></i>
-          <input type="email" id="defaultForm-email" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
-        </div>
+      <form method="POST" id="signup-form">
+        <div class="modal-body mx-3">
+          <div class="md-form mb-5">
+            <input type="email" required="" id="email" class="form-control validate">
+            <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+          </div>
 
-        <div class="md-form mb-4">
-          <i class="fas fa-lock prefix grey-text"></i>
-          <input type="password" id="defaultForm-pass" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
         </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <button class="btn btn-default">Submit</button>
+        </div>
+      </form>
 
-      </div>
-      <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-default">Login</button>
-      </div>
     </div>
   </div>
 </div>
@@ -267,6 +263,7 @@
 
   </div> <!-- end main-wrapper -->
 
+  <script src='https://www.gstatic.com/firebasejs/4.3.0/firebase.js'></script>
   <!-- jQuery Scripts -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -276,7 +273,7 @@
   <script type="text/javascript" src="js/gmap3.js"></script>
   <script type="text/javascript" src="js/plugins.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
-
+  <script type="text/javascript" src="js/secret.js"></script>
 
 
 </body>
