@@ -3336,4 +3336,17 @@ p.footer-address {
     .footer-type-3 a:hover {
       color: #111; }
 
+
+
+.navbar {
+  background:black !important;
+}
+
+footer {
+  background:black;
+}
+
+.bg-dark {
+  background:black;
+}
 /*# sourceMappingURL=style.css.map */
