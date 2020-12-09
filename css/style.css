@@ -3349,4 +3349,18 @@ footer {
 .bg-dark {
   background:black;
 }
+
+.text-success, .text-danger {
+  text-align:Center;
+  margin-top:20px;
+  font-size:20px;
+}
+
+.text-success {
+  color:green;
+}
+
+.text-danger {
+  color:red;
+}
 /*# sourceMappingURL=style.css.map */
