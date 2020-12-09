@@ -30,11 +30,62 @@
   <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/load.css" />
+  <link rel="stylesheet" href="css/loader.css" />
+  <link href="css/butterfly.css" rel="stylesheet" media="all">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-offset="60" data-target=".navbar-fixed-top">
+
+  <!-- Preloader, each div is a bar -->
+	<div id="loader-wrapper">
+				<div id="rumble-credit">Rumble Capital Presents
+														<!-- <button id="skip" type="button" class="btn btn-primary">Enter</button> -->
+				</div>
+	      <div class="credits">
+	        <div id="project-title"><img class="logo" src="img/rilla-transparent.png" alt="logo">
+					</div>
+					<div id='bars'>
+						<div class='bar'></div>
+						<div class='bar'></div>
+						<div class='bar'></div>
+						<div class='bar'></div>
+						<div class='bar'></div>
+						<div class='bar'></div>
+						<div class='bar'></div>
+						<div class='bar'></div>
+						<div class='bar'></div>
+						<div class='bar'></div>
+					</div>
+					<div id="artist-name">
+					<button id="skip" type="button" class="btn btn-primary">Enter</button>
+				</div>
+
+	      </div>
+				<!-- Panels open after time set in Blink.Js -->
+				<div class="loader-section section-left"></div>
+			  <div class="loader-section section-right"></div>
+
+			</div>
+
+						<!-- Borboletas(Butterflies) dance on top of pre-loader, then disappear with it -->
+			<div class="borboletas">
+				<div class="borboleta-1">
+					<div class="borboleta-oval-squish">
+						<div class="borboleta-oval">
+							<div class="borboleta-radial">
+								<div class="borboleta-gfx">
+									<div class="borboleta-anim"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Borboletas -->
 
   <!-- Preloader -->
   <div class="loader-mask">
@@ -219,10 +270,8 @@
   <!-- jQuery Scripts -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!--
-    1. Generate your key here - https://developers.google.com/maps/documentation/javascript/get-api-key
-    2. Paste your key in the script below.
-  -->
+  <script src="js/bars.js"></script>
+
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoQ3_zzRfW-hYspkwr5kvwCwLPGZsN4nw"></script>
   <script type="text/javascript" src="js/gmap3.js"></script>
   <script type="text/javascript" src="js/plugins.js"></script>
