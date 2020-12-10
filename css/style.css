@@ -3363,4 +3363,58 @@ footer {
 .text-danger {
   color:red;
 }
+
+.modal-header {
+  border-bottom:0px;
+}
+
+.modal-footer {
+  border-top:0px;
+}
+
+.modal-content {
+  margin-top:60%;
+  background:#191616;
+}
+
+.modal-title {
+  color:#bfa67a !important;
+}
+ #email {
+   background:white;
+   font-family: 'Montserrat';
+   background: white;
+  font-family: 'Montserrat';
+  color:#bfa67a !important;
+  font-weight: 700;
+  font-size: 16px;
+
+}
+
+#email input {
+  color: black;
+  font-weight: 00;
+  font-size: 18px;
+}
+
+
+ .modal-subtitle {
+   color:white;
+   font-weight:normal;
+   text-transform:none !important;
+   line-height:1.5;
+ }
+
+ #hook {
+   width:45%;
+ }
+
+ .show {
+   margin:0px !important;
+ }
+
+ #push {
+   display:block;
+   margin:0 auto;
+ }
 /*# sourceMappingURL=style.css.map */
