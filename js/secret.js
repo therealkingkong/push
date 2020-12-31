@@ -16,7 +16,7 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 var myFirebaseRef = firebase.database().ref();
 var url = window.location.href;
-var unique_id = moment().unix();
+var unique_id = "test" + moment().unix();
 var time = Date();
 
 // get visit data
